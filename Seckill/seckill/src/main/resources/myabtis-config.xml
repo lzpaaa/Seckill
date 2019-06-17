@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 配置全局变量 -->
+    <!-- 用jdbc的getGeneratedKeys，获取数据库自增主键值，默认为false -->
+    <!-- 其他的不用写，因为默认true，eg：mapUnderscoreToCamelCase，useColumnLabel。 -->
+    <settings>
+        <setting name="useGeneratedKeys" value="true"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+</configuration>
